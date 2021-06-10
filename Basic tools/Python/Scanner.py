@@ -43,7 +43,8 @@ def scanner(port_list):
         else:
             print('The port {} is open!'.format(port))
 
-
+if __name__ == '__main__':
+    main()
 
 #Just main function sortage
 def main():
