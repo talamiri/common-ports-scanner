@@ -43,8 +43,6 @@ def scanner(port_list):
         else:
             print('The port {} is open!'.format(port))
 
-if __name__ == '__main__':
-    main()
 
 #Just main function sortage
 def main():
@@ -57,3 +55,5 @@ def main():
         exit()
 main()
 
+if __name__ == "__main__":
+    print("scanner.py is being run directly")
